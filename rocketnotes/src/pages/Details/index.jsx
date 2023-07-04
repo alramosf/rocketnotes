@@ -6,5 +6,5 @@ export function Details(){
     <h1>Hello World</h1>
     
   )
-}
+};
 

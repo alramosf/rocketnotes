@@ -1,10 +1,20 @@
-import { Container } from './styles'
+import { Container } from './styles';
+
+import { Button } from '../../components/Button';
+
 
 export function Details(){
 
   return(
-    <h1>Hello World</h1>
+    <Container>
+      <h1>
+        Olá Mundo
+      </h1>
+    <Button title="Entrar" loading/>
+    <Button title="Cadastrar"/>
+    <Button title="Voltar"/>
+    </Container>
     
-  )
-};
+  );
+}
 

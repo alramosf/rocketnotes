@@ -26,7 +26,7 @@ export const Profile = styled.div`
         width: 56px;
         height: 56px;
         border-radius: 50%;
-    }
+    };
 
     > div{
         display: flex;
@@ -42,7 +42,7 @@ export const Profile = styled.div`
         strong {
             font-size: 18px;
             color: ${({theme}) => theme.COLORS.WHITE};
-        }
+        };
     }
 `
 

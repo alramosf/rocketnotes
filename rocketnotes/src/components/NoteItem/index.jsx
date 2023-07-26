@@ -7,7 +7,7 @@ export function NoteItem ({isNew, value, onClick, ...rest}){
         <Container isNew={isNew}>
             <input
                 type="text"
-                value={value}
+                //value={value} não está deixando digitar, por isso está comentado
                 readOnly={!isNew}
                 {...rest}
             />
